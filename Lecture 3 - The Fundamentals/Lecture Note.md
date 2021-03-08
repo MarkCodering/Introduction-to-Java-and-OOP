@@ -1,5 +1,5 @@
 ## Lecture 3 - The Fundamentals
-___
+
 ### Introduction to Variables
 There are six main variables types we often used in Java programming
 - int (integer)
