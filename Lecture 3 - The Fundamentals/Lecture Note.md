@@ -33,11 +33,29 @@ public class App{
 }
 ```
 
+or you can use a more conventional approach
+```Java
+import java.io.*;
+public class App{
+    public static void main (String args[]) throws IOException{
+        int num;
+        String str;
+        BufferedReader buf_reader;
+
+        buf_reader = new BufferedReader(new InputStreamReader(System.in));
+
+        str = buf.readLine();
+    }
+}
+```
+
+#### The Analysis of Performance
+The execution performance of bufferedreader is much higher (10x) than the Scanner class.
+BufferedReader > Scanner 
+
 ### Note: Escape Character in Java
 - \f
 - \b
 - \n
 - \r
 - \t
-
-### Introduction to Expression and Arguments
