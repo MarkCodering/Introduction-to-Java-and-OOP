@@ -33,4 +33,11 @@ public class App{
 }
 ```
 
+### Note: Escape Character in Java
+- \f
+- \b
+- \n
+- \r
+- \t
+
 ### Introduction to Expression and Arguments
