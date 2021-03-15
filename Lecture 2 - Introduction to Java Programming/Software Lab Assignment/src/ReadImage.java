@@ -40,7 +40,7 @@ public class ReadImage
 		BufferedImage image = null; 
 
 		// READ IMAGE 
-		try
+		try 
 		{ 
 			File input_file = new File("C:/Users/admin/Downloads/image_1.jpg"); //image file path 
 			/* create an object of BufferedImage type and pass 
