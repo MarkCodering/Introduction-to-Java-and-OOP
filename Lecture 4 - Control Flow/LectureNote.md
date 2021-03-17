@@ -8,7 +8,7 @@
 Step by step process
 
 ### Selection Structure
-Sample Code: if-structure
+#### Sample Code: if-structure
 ```Java
 import java.util.Scanner;
 public class App{
@@ -28,7 +28,7 @@ public class App{
     }
 }
 ```
-Sample code - Switch case
+#### Sample code - Switch
 ```Java
 import java.util.Scanner;
 public class App{
@@ -38,10 +38,17 @@ public class App{
         selection = scan.nextInt();
         
         //Selection Struture
-        if (selection == 1){
-            System.out.println("The selection is: " + selection);
-        }else{
-            System.out.println("The selection is not equal to one. Selection: " + selection);
+        switch(selection)
+        {
+            case '1':
+            System.out.println("1");
+            break;
+            case '2':
+            System.out.println("1");
+            break;
+            default:
+            System.out.println("3");
+            break;
         }
 
         scan.close();
@@ -96,4 +103,32 @@ public class App{
     }
 }
 ```
+
+#### Sample Code - Loop: Enhanced For Loop (For-each loop)
+```Java
+public class App{
+    public static void main(String[] args){
+        int numbers[] = {11,22,33,44,55}; //Create an array
+        int i = 0; //Indexing the array
+
+        for (int count: numbers){
+            System.out.println("Numbers: " + i + ":"+count);
+            i++;
+        }
+    }   
+}
+```Java
+public class App{
+    public static void main(String[] args){
+        int coding_language[] = {"Java", "C/C++", "Python"}; //Create an array
+        int i = 0; //Indexing the array
+        
+        for (String skill: coding_languages){
+            System.out.println("Numbers: " + i + ":"+skill);
+            i++;
+        }
+    }   
+}
+```
+Note: This approach enables programmer to write a clean and fast code in examing an array.
 
