@@ -64,6 +64,7 @@ The two-dimensional array is a basic data structure that can store and display t
 ```Java
 int num_arr[][];
 int 
+
 ```
 ##### Why we need an two-dimensional array?
 ##### How to declare, use, and apply two-dimensional array?
