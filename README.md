@@ -6,6 +6,10 @@ Welcome to the Introduction to Object-orientated Programming in Java. Throughout
 - Lecture 2: Introduction to Java
 - Lecture 3: Varibles and Types
 - Lecture 4: Control Flow (Conditional Statements and Loops)
+- Lecture 5: Arrays
+- Lecture 6: Methods
+- Lecture 7: Classes
+- Mid-term Exam Revision Material
 
 ### Prerequists 
 - Basic Programming Knowledge
