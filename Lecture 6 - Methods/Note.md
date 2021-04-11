@@ -11,4 +11,10 @@ public static name_method(){
     return x; //Return value x
 }
 ```
+### Key words:
+- public: publically accessible
+- private: privately accessible within the same class
+- static: pre-stored to the memory
+- void: no return value
 
+### 
