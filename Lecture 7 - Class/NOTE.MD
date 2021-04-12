@@ -5,7 +5,7 @@ The class is a set of collection of some similar methods or objects. For example
 
 ### The concept of a class with OOP?
 The concept of class has the following characteristics,
-- Polymmorphism
+- Polymorphism
 - Encapsulation
 
 ### Why we need class?
@@ -55,8 +55,9 @@ public class App
         Scanner scan = new Scanner(System.in);
 
         input = scan.nextDouble();
-        Circle_Calc = new CCircle();
-        
+        CCircle Circle_Calc; //Assign a name of an object based on the class CCircle
+        Circle_Calc = new CCircle(); //Create an object by using keyword "new"
+
         int ans_area = Circle_Calc.area(input);
         System.out.println("Here is the area of a circle: "+ ans_area);
     }
