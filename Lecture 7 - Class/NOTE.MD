@@ -55,11 +55,15 @@ public class App
         Scanner scan = new Scanner(System.in);
 
         input = scan.nextDouble();
-        CCircle Circle_Calc; //Assign a name of an object based on the class CCircle
-        Circle_Calc = new CCircle(); //Create an object by using keyword "new"
+        CCircle Circle_Calc_1; //Assign a name of an object based on the class CCircle
+        Circle_Calc_1 = new CCircle(); //Create an object by using keyword "new"
+
+        Circle_Calc_2 = new CCircle();
 
         int ans_area = Circle_Calc.area(input);
         System.out.println("Here is the area of a circle: "+ ans_area);
     }
 }
 ```
+
+### Overloading
